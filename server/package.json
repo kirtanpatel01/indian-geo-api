@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "cd ../client && npm run build && cd ../server && node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "author": "",

@@ -18,3 +18,7 @@ body {
     --color-primary-900: oklch(0.414 0.112 45.904);
     --color-primary-950: oklch(0.279 0.077 45.635);
 }
+
+.primary-btn {
+    @apply px-4 py-2 rounded-md border-2 border-primary-700 bg-primary-700/10 hover:bg-primary-700/100 cursor-pointer 
+}
