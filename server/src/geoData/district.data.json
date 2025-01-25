@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Vadodara",
+        "stateId": { "$oid": "677d4e423ebfe3c818f10245" },
+        "talukas": []
+    },
+    {
+        "name": "Surat",
+        "stateId": { "$oid": "677d4e423ebfe3c818f10245" },
+        "talukas": []
+    }
+]

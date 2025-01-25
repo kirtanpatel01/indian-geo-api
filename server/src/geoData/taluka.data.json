@@ -1,0 +1,577 @@
+{
+  "_id": { "$oid": "6791de0ea34c0336dbdaa204" },
+  "name": "Waghodia",
+  "districtId": { "$oid": "677d5ca6c44a3d1032d15da6" },
+  "villages": [
+    {
+      "_id": {
+        "$oid": "677dd3434244aecaf82a20d4"
+      },
+      "name": "Abhrampura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd4f04244aecaf82a20d7"
+      },
+      "name": "Adiran"
+    },
+    {
+      "_id": {
+        "$oid": "677dd4ff4244aecaf82a20d8"
+      },
+      "name": "Alva"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5124244aecaf82a20d9"
+      },
+      "name": "Ambali"
+    },
+    {
+      "_id": {
+        "$oid": "677dd51b4244aecaf82a20da"
+      },
+      "name": "Amodar"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5344244aecaf82a20db"
+      },
+      "name": "Amreshwar"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5724244aecaf82a20dc"
+      },
+      "name": "Amrutpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd57e4244aecaf82a20dd"
+      },
+      "name": "Antoli"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5874244aecaf82a20de"
+      },
+      "name": "Asha"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5904244aecaf82a20df"
+      },
+      "name": "Asoj"
+    },
+    {
+      "_id": {
+        "$oid": "677dd59a4244aecaf82a20e0"
+      },
+      "name": "Bakrol"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5a34244aecaf82a20e1"
+      },
+      "name": "Bhadol Khurd"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5af4244aecaf82a20e2"
+      },
+      "name": "Bhaniyara"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5b94244aecaf82a20e3"
+      },
+      "name": "Bhaupura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5c24244aecaf82a20e4"
+      },
+      "name": "Bodidra"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5d14244aecaf82a20e5"
+      },
+      "name": "Chandpur"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5db4244aecaf82a20e6"
+      },
+      "name": "Chipad"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5e44244aecaf82a20e7"
+      },
+      "name": "Chipat"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5ed4244aecaf82a20e8"
+      },
+      "name": "Dankheda"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5f64244aecaf82a20e9"
+      },
+      "name": "Dattapura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd5ff4244aecaf82a20ea"
+      },
+      "name": "Dharola"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6074244aecaf82a20eb"
+      },
+      "name": "Dundelav"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6104244aecaf82a20ec"
+      },
+      "name": "Falod"
+    },
+    {
+      "_id": {
+        "$oid": "677dd64b4244aecaf82a20ed"
+      },
+      "name": "Falod"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6544244aecaf82a20ee"
+      },
+      "name": "Gajadra"
+    },
+    {
+      "_id": {
+        "$oid": "677dd65e4244aecaf82a20ef"
+      },
+      "name": "Gambhirpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6684244aecaf82a20f0"
+      },
+      "name": "Ganeshpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6714244aecaf82a20f1"
+      },
+      "name": "Ghoda"
+    },
+    {
+      "_id": {
+        "$oid": "677dd67a4244aecaf82a20f2"
+      },
+      "name": "Ghodadra"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6874244aecaf82a20f3"
+      },
+      "name": "Goraj"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6924244aecaf82a20f4"
+      },
+      "name": "Gugalpur"
+    },
+    {
+      "_id": {
+        "$oid": "677dd69b4244aecaf82a20f5"
+      },
+      "name": "Gutal"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6a44244aecaf82a20f6"
+      },
+      "name": "Hamirpuri"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6b34244aecaf82a20f7"
+      },
+      "name": "Hansapura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6bb4244aecaf82a20f8"
+      },
+      "name": "Hanumanpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6c44244aecaf82a20f9"
+      },
+      "name": "Intoli"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6cc4244aecaf82a20fa"
+      },
+      "name": "Jafarpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6d54244aecaf82a20fb"
+      },
+      "name": "Jambuwada"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6dd4244aecaf82a20fc"
+      },
+      "name": "Jesangpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6e84244aecaf82a20fd"
+      },
+      "name": "Juna Rampura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6f14244aecaf82a20fe"
+      },
+      "name": "Kachhota"
+    },
+    {
+      "_id": {
+        "$oid": "677dd6f84244aecaf82a20ff"
+      },
+      "name": "Kamlapura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7024244aecaf82a2100"
+      },
+      "name": "Kamrol"
+    },
+    {
+      "_id": {
+        "$oid": "677dd70f4244aecaf82a2101"
+      },
+      "name": "Karamliya Pura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7174244aecaf82a2102"
+      },
+      "name": "Karmasiya Kheda"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7204244aecaf82a2103"
+      },
+      "name": "Khandha"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7294244aecaf82a2104"
+      },
+      "name": "Khandiwada"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7304244aecaf82a2105"
+      },
+      "name": "Khervadi"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7394244aecaf82a2106"
+      },
+      "name": "Koba"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7414244aecaf82a2107"
+      },
+      "name": "Kodarvaya"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7494244aecaf82a2108"
+      },
+      "name": "Kotambi"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7514244aecaf82a2109"
+      },
+      "name": "Kumetha"
+    },
+    {
+      "_id": {
+        "$oid": "677dd75b4244aecaf82a210a"
+      },
+      "name": "Lilora"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7654244aecaf82a210b"
+      },
+      "name": "Limda"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7724244aecaf82a210c"
+      },
+      "name": "Madheli"
+    },
+    {
+      "_id": {
+        "$oid": "677dd77f4244aecaf82a210d"
+      },
+      "name": "Madodhar"
+    },
+    {
+      "_id": {
+        "$oid": "677dd78b4244aecaf82a210e"
+      },
+      "name": "Mastupura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7954244aecaf82a210f"
+      },
+      "name": "Morlipura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd79e4244aecaf82a2110"
+      },
+      "name": "Moti Manekpur"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7a74244aecaf82a2111"
+      },
+      "name": "Nani Manekpur"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7b14244aecaf82a2112"
+      },
+      "name": "Nava Ajva"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7bb4244aecaf82a2113"
+      },
+      "name": "Nava Rampura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7c44244aecaf82a2114"
+      },
+      "name": "Navgam"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7cd4244aecaf82a2115"
+      },
+      "name": "Navi Jambuvai"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7d64244aecaf82a2116"
+      },
+      "name": "Nimetha"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7e04244aecaf82a2117"
+      },
+      "name": "Nurpuri"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7e94244aecaf82a2118"
+      },
+      "name": "Paldi"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7f54244aecaf82a2119"
+      },
+      "name": "Panch Devla"
+    },
+    {
+      "_id": {
+        "$oid": "677dd7fe4244aecaf82a211a"
+      },
+      "name": "Pavlepur"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8074244aecaf82a211b"
+      },
+      "name": "Pipaliya"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8104244aecaf82a211c"
+      },
+      "name": "Rahkui"
+    },
+    {
+      "_id": {
+        "$oid": "677dd81b4244aecaf82a211d"
+      },
+      "name": "Rajpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8254244aecaf82a211e"
+      },
+      "name": "Rasulabad"
+    },
+    {
+      "_id": {
+        "$oid": "677dd82f4244aecaf82a211f"
+      },
+      "name": "Raval"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8384244aecaf82a2120"
+      },
+      "name": "Rayan Talavadi"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8424244aecaf82a2121"
+      },
+      "name": "Ropa"
+    },
+    {
+      "_id": {
+        "$oid": "677dd84c4244aecaf82a2122"
+      },
+      "name": "Rustampura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8554244aecaf82a2123"
+      },
+      "name": "Saidal"
+    },
+    {
+      "_id": {
+        "$oid": "677dd85e4244aecaf82a2124"
+      },
+      "name": "Sakariya"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8694244aecaf82a2125"
+      },
+      "name": "Sangadol"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8734244aecaf82a2126"
+      },
+      "name": "Sanoli"
+    },
+    {
+      "_id": {
+        "$oid": "677dd87b4244aecaf82a2127"
+      },
+      "name": "Sarnej"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8854244aecaf82a2128"
+      },
+      "name": "Shripore Timbi"
+    },
+    {
+      "_id": {
+        "$oid": "677dd88f4244aecaf82a2129"
+      },
+      "name": "Sikandarpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8974244aecaf82a212a"
+      },
+      "name": "Tarsva"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8a04244aecaf82a212b"
+      },
+      "name": "Tavra"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8aa4244aecaf82a212c"
+      },
+      "name": "Timbi"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8b24244aecaf82a212d"
+      },
+      "name": "Umarva"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8bb4244aecaf82a212e"
+      },
+      "name": "Valva"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8c44244aecaf82a212f"
+      },
+      "name": "Vasvel"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8cd4244aecaf82a2130"
+      },
+      "name": "Vedpur"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8d54244aecaf82a2131"
+      },
+      "name": "Vejalpur"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8df4244aecaf82a2132"
+      },
+      "name": "Vesaniya"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8e84244aecaf82a2133"
+      },
+      "name": "Vyankatpura"
+    },
+    {
+      "_id": {
+        "$oid": "677dd8f14244aecaf82a2134"
+      },
+      "name": "Vyara"
+    }
+  ]
+}
