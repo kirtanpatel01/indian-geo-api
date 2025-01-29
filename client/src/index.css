@@ -27,7 +27,7 @@ body.dark {
 }
 
 .primary-btn {
-    @apply px-4 py-2 rounded-md border bg-primary-700/10 hover:bg-primary-700/100 cursor-pointer 
+    @apply px-4 py-2 rounded-md border bg-primary-700/10 hover:bg-primary-700/100 cursor-pointer hover:text-primary-50
 }
 
 /* Spinner Wrapper */
@@ -35,15 +35,14 @@ body.dark {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full screen height */
   }
   
   /* Spinner */
   .spinner {
-    width: 50px;
-    height: 50px;
-    border: 5px solid rgba(0, 0, 0, 0.1); /* Light gray background */
-    border-top: 5px solid #3498db; /* Blue spinner */
+    width: 30px;
+    height: 30px;
+    border: 5px solid oklch(0.987 0.022 95.277); /* Light gray background */
+    border-top: 5px solid oklch(0.828 0.189 84.429); /* Blue spinner */
     border-radius: 50%;
     animation: spin 1s linear infinite;
   }

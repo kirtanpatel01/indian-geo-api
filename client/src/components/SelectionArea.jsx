@@ -8,10 +8,12 @@ function SelectionArea({
 }) {
   const fetchedData = radioInput?.data;
   const fetchedName = radioInput?.name;
+
+  console.log(fetchedName)
   return (
     <div className="w-full grid grid-rows-[auto_auto_1fr] place-items-center border">
       <div className="flex gap-2 items-center my-4">
-        <h1 className="text-3xl ">Selection Area for - </h1>
+        <h1 className="text-3xl ">Selection Area for</h1>
         <span className="text-3xl font-semibold px-2 rounded-md bg-primary-600/30">
           {fetchedName.charAt(0).toUpperCase() + fetchedName.slice(1)}
         </span>
@@ -46,19 +48,36 @@ function SelectionArea({
       )}
 
       {!isParentDataPending && (
-        <div className="min-w-96 max-h-96 place-self-start justify-self-center mt-4 overflow-y-auto">
+        <div className="min-w-96 max-h-screen place-self-start justify-self-center mt-4 overflow-y-auto">
           {/* <input
                 type="text"
                 className="w-full px-4 py-2 mb-1 border border-primary-500 outline-none bg-amber-300/10 rounded-md"
              /> */}
           <ul className="flex flex-col gap-1">
             {fetchedData.map((item) => (
-              <li
-                className="w-full px-4 py-2 bg-primary-500 hover:bg-primary-700 cursor-pointer rounded-md"
+              <label
+                htmlFor={item.name}
+                className={`w-full px-4 py-2 hover:bg-primary-700 cursor-pointer rounded-md text-primary-50 ${
+                  selectedParent[fetchedName] === item.name ? "bg-primary-700" : "bg-primary-500 "
+                }`}
                 key={item?.name}
               >
+                <input
+                  type="radio"
+                  name="selection"
+                  id={item.name}
+                  value={item.name}
+                  checked={selectedParent[fetchedName] === item.name}
+                  onChange={() =>
+                    setSelectedParent((prevState) => ({
+                      ...prevState,
+                      [fetchedName]: item.name,
+                    }))
+                  }
+                  className="cursor-pointer mr-4"
+                />
                 {item?.name}
-              </li>
+              </label>
             ))}
           </ul>
         </div>

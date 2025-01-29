@@ -15,6 +15,8 @@ function AdminPanel() {
     village: "",
   });
 
+  console.log(selectedParent)
+
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isParentDataPending, setIsParentDataPending] = useState(false);
 
@@ -41,7 +43,7 @@ function AdminPanel() {
   };
 
   return (
-    <div className="w-full grid grid-cols-2 p-1 gap-1">
+    <div className="w-full min-h-screen grid grid-cols-2 p-1 gap-1">
       <SelectionArea
         selectedParent={selectedParent}
         setSelectedParent={setSelectedParent}
