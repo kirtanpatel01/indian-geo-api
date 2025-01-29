@@ -5,6 +5,7 @@ import geoDataRoutes from "./routes/routes.js";
 import adminRoutes from './routes/admin.route.js';
 import path from "path";
 import { fileURLToPath } from "url";
+import cors from 'cors';
 
 config();
 
@@ -16,8 +17,15 @@ const MONGODB_URL =
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const corsOptions = {
+   origin: process.env.ORIGIN, // Allow only your React app
+   methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
+   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
+};
+
 app.use(express.json());
 
+app.use(cors(corsOptions));
 app.use("/api/geo-data", geoDataRoutes);
 app.use('/api/admin', adminRoutes);
 

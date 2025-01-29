@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 body {
-    background-color: black;
-    color: antiquewhite;
+    background-color: oklch(0.987 0.022 95.277);
+    color: oklch(0.279 0.077 45.635);
+    min-height: 100vh;
+}
+
+body.dark {
+    background-color: #150700;
+    color: oklch(0.987 0.022 95.277);
 }
 
 @theme {
@@ -17,8 +23,38 @@ body {
     --color-primary-800: oklch(0.473 0.137 46.201);
     --color-primary-900: oklch(0.414 0.112 45.904);
     --color-primary-950: oklch(0.279 0.077 45.635);
+    --color-base-dark: #150700;
 }
 
 .primary-btn {
-    @apply px-4 py-2 rounded-md border-2 border-primary-700 bg-primary-700/10 hover:bg-primary-700/100 cursor-pointer 
+    @apply px-4 py-2 rounded-md border bg-primary-700/10 hover:bg-primary-700/100 cursor-pointer 
 }
+
+/* Spinner Wrapper */
+.spinner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+  }
+  
+  /* Spinner */
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.1); /* Light gray background */
+    border-top: 5px solid #3498db; /* Blue spinner */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Spinner Animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
